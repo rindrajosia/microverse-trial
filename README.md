@@ -10,7 +10,7 @@ During this project I will apply my knowledge about the code review process, HTM
 * CSS
 
 # Live Demo
-**[Live Demo](https://rawcdn.githack.com/rindrajosia/capstone-html/31db66316b628f3e88ffdb63ef0798613c6382d9/index.html)**
+**[Live Demo](https://raw.githack.com/rindrajosia/microverse-trial/development/index.html)**
 
 
 # Getting Started
