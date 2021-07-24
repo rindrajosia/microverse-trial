@@ -6,10 +6,9 @@
   font-family: 'Lato', sans-serif;
 }
 
-body{
+body {
   position: relative;
 }
-
 
 section {
   width: 100vw;
@@ -29,15 +28,11 @@ section {
 
 .nav-list {
   margin-left: auto;
-}
-
-.nav-list {
-  margin-left: auto;
   display: flex;
   align-items: center;
 }
 
-.nav-list>li {
+.nav-list > li {
   display: inline-block;
   margin-right: 25px;
 }
@@ -56,13 +51,16 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
 }
 
 #welcome-section > h1 {
   color: #fff;
   font-size: 2rem;
   margin-bottom: 5px;
+}
+
+footer > p {
+  color: #fff;
 }
 
 #welcome-section > p {
@@ -75,7 +73,7 @@ section {
   padding: 80px 30px;
 }
 
-#projects>h1 {
+#projects > h1 {
   text-align: center;
   margin-bottom: 50px;
   color: #fff;
@@ -103,7 +101,7 @@ section {
 }
 
 .project-title {
-  padding: 1.5rem .5rem;
+  padding: 1.5rem 0.5rem;
   color: #fff;
   text-align: center;
   font-size: 2rem;
@@ -119,8 +117,8 @@ section {
   height: calc(100vh - 80px);
   padding: 25px;
   background-color: #303841;
-  color:#fff;
-  display:flex;
+  color: #fff;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -152,10 +150,6 @@ footer {
   padding: 0 30px;
 }
 
-footer > p {
-  color: #fff;
-}
-
 @media screen and (min-width: 700px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -178,8 +172,6 @@ footer > p {
 
 @media screen and (min-width: 1000px) {
   .projects-grid {
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
-
-
 }
